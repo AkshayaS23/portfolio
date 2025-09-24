@@ -14,9 +14,10 @@ const MyWork = () => {
 
       <div className="mywork-container">
         {mywork_data.map((work,index)=>{
-            return <div key={index}>
+            return <div key={index} className="mywork-card">
               <a href={work.live_link} target="_blank" rel="noopener noreferrer">
                 <img src={work.w_img} alt={work.w_name || "Project Image"} />
+                <span className="hover-text">Click to Explore This Project</span>
               </a>
             </div>
 

@@ -67,6 +67,45 @@
     transition: 0.6s;
 }
 
+.mywork-card {
+  position: relative;
+  display: inline-block;
+}
+
+.mywork-card img {
+  width: 400px;
+  height: 200px;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.mywork-card img:hover {
+  transform: scale(1.1);
+  border: 4px solid #ff00ff;
+  border-radius: 10px;
+}
+
+/* Hover text */
+.hover-text {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0,0,0,0.7);
+  color: #fff;
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.3s;
+  pointer-events: none; /* so it doesn’t block the click */
+}
+
+.mywork-card:hover .hover-text {
+  opacity: 1;
+}
+
+
 @media(max-width:768px){
     .mywork{
         gap: 50px;
