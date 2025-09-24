@@ -13,7 +13,7 @@ const mywork_data = [
         live_link:"https://quickshow-khaki-theta.vercel.app/"
     },
       {
-        w_no:5,
+        w_no:2,
         w_name:"Weather App",
         w_img:project5_img,
         live_link:"https://akshayas23.github.io/WeatherApp/"
@@ -33,7 +33,7 @@ const mywork_data = [
         live_link:"https://akshayas23.github.io/lmsProject/"
     },
      {
-        w_no:2,
+        w_no:5,
         w_name:"AI Image Generator",
         w_img:project1_img,
         live_link:"https://akshayas23.github.io/Ai_image_generator/"
